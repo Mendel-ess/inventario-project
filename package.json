@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/Mendel-ess/inventario-project#readme",
   "dependencies": {
+    "next": "^12.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
